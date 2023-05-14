@@ -29,6 +29,7 @@ import java.util.Scanner;
         cust_id=sc.nextLine();
         name=sc.nextLine();
         units=sc.nextInt();
+        
         bill=Sample.findTotalBill(units);    
         System.out.format("%.2f",bill);
         sc.close();
